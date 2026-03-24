@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.1-alpha3"
+  version "0.0.1-alpha4"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha3/substrate_0.0.1-alpha3_darwin_arm64.tar.gz"
-      sha256 "1e98bb4df216e150a110b12a1711e91804223d9af6e19ead348d10889e5a6363"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha4/substrate_0.0.1-alpha4_darwin_arm64.tar.gz"
+      sha256 "4982ea959365c41748190deeaba89225857113d5b93cee226592e123632d4d3c"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha3/substrate_0.0.1-alpha3_darwin_amd64.tar.gz"
-      sha256 "b323689620e3f9a7563d8d64fceebf27c9c05f61ca4a9f672440d5c0a106a054"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha4/substrate_0.0.1-alpha4_darwin_amd64.tar.gz"
+      sha256 "6be48ee88a70f6063566ddb4f43b086498d886668c792f95cc2fdf3d0a1061ca"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha3/substrate_0.0.1-alpha3_linux_arm64.tar.gz"
-      sha256 "2e9c8358ef29b8b290e65956cb6a6ae817284c03f26a5c8ef34a186220d0033b"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha4/substrate_0.0.1-alpha4_linux_arm64.tar.gz"
+      sha256 "af1a8b6d26d2206bb9d2529c2722a63e8cb5b5c0ca4a4598486d3e08d93e21e2"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha3/substrate_0.0.1-alpha3_linux_amd64.tar.gz"
-      sha256 "e94eeef1e85badb671521d5548b4d0f2e022145b0af8dc630d7ddba0c0e7f009"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha4/substrate_0.0.1-alpha4_linux_amd64.tar.gz"
+      sha256 "38db66371848af7785a60ad621bd8b6fa9f5cdb9c520aea829bf4d9827361e2b"
     end
   end
 
