@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.1-alpha9"
+  version "0.0.1-alpha10"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha9/substrate_0.0.1-alpha9_darwin_arm64.tar.gz"
-      sha256 "46b48ea26200e295c606515cf3dcab5e181cdbed0c4c967eea145f301724835a"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha10/substrate_0.0.1-alpha10_darwin_arm64.tar.gz"
+      sha256 "922405c010610b27057cf710d79c77f750b875cf42738dc00939bc66a4689590"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha9/substrate_0.0.1-alpha9_darwin_amd64.tar.gz"
-      sha256 "e2141b813c58287bad09ed775b91594be768cd4a99929a5256394fca8fa349c8"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha10/substrate_0.0.1-alpha10_darwin_amd64.tar.gz"
+      sha256 "efc08c2938eaa55fb1fcb0dfb05d1574d7b680667b077f6a42e2df5fbcf12966"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha9/substrate_0.0.1-alpha9_linux_arm64.tar.gz"
-      sha256 "f3fec40a9979cf66952ed762c5c07259ea26d6533d740d4b43a7bb8dbc90189e"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha10/substrate_0.0.1-alpha10_linux_arm64.tar.gz"
+      sha256 "04c53c08d78fb310c4b0cf637b83eb916079c624c54e1c7cffd819448bfd0619"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha9/substrate_0.0.1-alpha9_linux_amd64.tar.gz"
-      sha256 "c68e1f16b6ffc962e7dd804538afb7c8b44c08e2fcc47a8945f44ff5e9b1577b"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha10/substrate_0.0.1-alpha10_linux_amd64.tar.gz"
+      sha256 "ddab6e157ed4bb248c3e6052a957acb81952a7201d014259cd6281dc8e21e16b"
     end
   end
 
