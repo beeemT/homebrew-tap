@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.1-alpha19"
+  version "0.0.1-alpha21"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha19/substrate_0.0.1-alpha19_darwin_arm64.tar.gz"
-      sha256 "325577a8a78a21c480ba1f9d0eeaf612694ed0779ca73e46a97a028424b01029"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha21/substrate_0.0.1-alpha21_darwin_arm64.tar.gz"
+      sha256 "d5a3b42e249a04fda7c93bad746aa75bf8b2969e60be061dbf0513d014ef595e"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha19/substrate_0.0.1-alpha19_darwin_amd64.tar.gz"
-      sha256 "cb829ee274174eb75e0c1020733ce58bf74ec755687545028a82091efdb93d29"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha21/substrate_0.0.1-alpha21_darwin_amd64.tar.gz"
+      sha256 "2eb7fdb76d4b5ed9542bbd6b29114a523dc9cbb9be9ce5486f2cf0f27b669c0d"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha19/substrate_0.0.1-alpha19_linux_arm64.tar.gz"
-      sha256 "50b4b92b2a2e3f0a69641f39a2ccdb82446c1aa4565f830fc7c3690132389dea"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha21/substrate_0.0.1-alpha21_linux_arm64.tar.gz"
+      sha256 "1813743118f9d83b03d35cae93dcc38a9226dfa89d99578a93ea9a0e174f0667"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha19/substrate_0.0.1-alpha19_linux_amd64.tar.gz"
-      sha256 "bade6fc2f4363a461ef853b8dd3d0a41c74f4c8e9a22d1008eb8bad30722bcad"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha21/substrate_0.0.1-alpha21_linux_amd64.tar.gz"
+      sha256 "926030ac4c620f2104bba1b66574eac00ac3c6ca43a37032e891a5d6dc1c0d37"
     end
   end
 
