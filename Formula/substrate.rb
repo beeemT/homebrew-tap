@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.1-alpha22"
+  version "0.0.23"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha22/substrate_0.0.1-alpha22_darwin_arm64.tar.gz"
-      sha256 "15bf6402dfd76e5482a3964cd4a20829d293b07d570e415595f0802e615be544"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.23/substrate_0.0.23_darwin_arm64.tar.gz"
+      sha256 "dd35f4101d7c836f87f2e8e0b784c7588c203dbe40f485d82600fae2719e7357"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha22/substrate_0.0.1-alpha22_darwin_amd64.tar.gz"
-      sha256 "9121c62382677f93d43bb07f0357cfbbf919cf0453b2787fd55646a7a2a5da62"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.23/substrate_0.0.23_darwin_amd64.tar.gz"
+      sha256 "252770c3ab7250c9d8bb8825170bb0d32879112186b44144a6a391d9d039b6db"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha22/substrate_0.0.1-alpha22_linux_arm64.tar.gz"
-      sha256 "35a7d4a8fbe7d3de7f1cae88f14fd482af2dee97c79d23da79f3da5b9dfe84d9"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.23/substrate_0.0.23_linux_arm64.tar.gz"
+      sha256 "78dc83de24bad1bc10caf26404fcecbfabab25fd5cbe4097b2296a96910ac5b3"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.1-alpha22/substrate_0.0.1-alpha22_linux_amd64.tar.gz"
-      sha256 "30b673ac4883d63c459f9637de939e222efcbefb3fcfd93505f9ff81c43ea05b"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.23/substrate_0.0.23_linux_amd64.tar.gz"
+      sha256 "ff67fe6eb7e65a15f2a2e504cab55adaad67b6e6fe877db3492eea3f1804a105"
     end
   end
 
