@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.24"
+  version "0.0.25"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.24/substrate_0.0.24_darwin_arm64.tar.gz"
-      sha256 "3ef2ebdf6c4bbb55f9ced6953898ed1340c888271e5905762cc5fd432f57b351"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.25/substrate_0.0.25_darwin_arm64.tar.gz"
+      sha256 "e05d703b1acfb06613a28da2076c2b58ff7c1d428cabe03977db14be0e0de936"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.24/substrate_0.0.24_darwin_amd64.tar.gz"
-      sha256 "a2ce509a90fc6b41aad05693f0cceeb7353d8cb8414a27138009fdf1da995e76"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.25/substrate_0.0.25_darwin_amd64.tar.gz"
+      sha256 "f7c44c1dcc553f3bce87526d2aac742be14969292e3476c792c73891d02bd5cf"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.24/substrate_0.0.24_linux_arm64.tar.gz"
-      sha256 "37d54123a78d92c437ad3f073e350f897950aa9c66a365cb41a6ef6623fa37de"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.25/substrate_0.0.25_linux_arm64.tar.gz"
+      sha256 "46f2043927be90574efa6ea0d85b455673bd33fd0b8d8638e09f812faaa4ae77"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.24/substrate_0.0.24_linux_amd64.tar.gz"
-      sha256 "b00c3fb1f0e91d14fd627f84855bcaed7016bb4ff4689d1769113300441a1171"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.25/substrate_0.0.25_linux_amd64.tar.gz"
+      sha256 "45b29cabeffcc15aa05d0aa03b1a77cdfc5ca92c809979cf968cd6154d72bf92"
     end
   end
 
