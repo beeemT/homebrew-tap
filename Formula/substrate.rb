@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.23"
+  version "0.0.24"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.23/substrate_0.0.23_darwin_arm64.tar.gz"
-      sha256 "dd35f4101d7c836f87f2e8e0b784c7588c203dbe40f485d82600fae2719e7357"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.24/substrate_0.0.24_darwin_arm64.tar.gz"
+      sha256 "3ef2ebdf6c4bbb55f9ced6953898ed1340c888271e5905762cc5fd432f57b351"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.23/substrate_0.0.23_darwin_amd64.tar.gz"
-      sha256 "252770c3ab7250c9d8bb8825170bb0d32879112186b44144a6a391d9d039b6db"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.24/substrate_0.0.24_darwin_amd64.tar.gz"
+      sha256 "a2ce509a90fc6b41aad05693f0cceeb7353d8cb8414a27138009fdf1da995e76"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.23/substrate_0.0.23_linux_arm64.tar.gz"
-      sha256 "78dc83de24bad1bc10caf26404fcecbfabab25fd5cbe4097b2296a96910ac5b3"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.24/substrate_0.0.24_linux_arm64.tar.gz"
+      sha256 "37d54123a78d92c437ad3f073e350f897950aa9c66a365cb41a6ef6623fa37de"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.23/substrate_0.0.23_linux_amd64.tar.gz"
-      sha256 "ff67fe6eb7e65a15f2a2e504cab55adaad67b6e6fe877db3492eea3f1804a105"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.24/substrate_0.0.24_linux_amd64.tar.gz"
+      sha256 "b00c3fb1f0e91d14fd627f84855bcaed7016bb4ff4689d1769113300441a1171"
     end
   end
 
