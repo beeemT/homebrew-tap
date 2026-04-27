@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.34"
+  version "0.0.35"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.34/substrate_0.0.34_darwin_arm64.tar.gz"
-      sha256 "5ea02bd99076c79bfc4c73a4773fd9c52f3560deeb12b7fdb8c54b39e7152414"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.35/substrate_0.0.35_darwin_arm64.tar.gz"
+      sha256 "18d63122a9dbefebee8cd4138eb32b75ea6fda5940d404b91ef751ae3266b6f9"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.34/substrate_0.0.34_darwin_amd64.tar.gz"
-      sha256 "e994fb8cb090a7b6aede46c286387c311b35c5d79a8f5944bf11c34e29e5e6ce"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.35/substrate_0.0.35_darwin_amd64.tar.gz"
+      sha256 "6e54f0610baf8da5d129c051c8c26a84789969671cb3fc90bf8dd8fc05eb02af"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.34/substrate_0.0.34_linux_arm64.tar.gz"
-      sha256 "86f6241861ed7da3176a53ac74e42b7490129affff9e6ac617d9bca812d61c54"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.35/substrate_0.0.35_linux_arm64.tar.gz"
+      sha256 "bce5ea3449cf83ec9439d3ca405bec240fcdb0042044d1cc925f5ac2484cc129"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.34/substrate_0.0.34_linux_amd64.tar.gz"
-      sha256 "aca6f5b7a6c7322e7c2d3d2497ebfa0d4af3ccf68d4ec298ffbf6b869c729bd7"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.35/substrate_0.0.35_linux_amd64.tar.gz"
+      sha256 "a2df5e122bbe1da5d53ce6db55b48da2f1b342c62acec6f64a179e77f238cd8b"
     end
   end
 
