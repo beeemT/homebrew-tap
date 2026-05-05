@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.40"
+  version "0.0.41"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.40/substrate_0.0.40_darwin_arm64.tar.gz"
-      sha256 "4869b00add56561c494366a19625f046a99161e175fc974daf4aa9e2c363e8cb"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.41/substrate_0.0.41_darwin_arm64.tar.gz"
+      sha256 "dca86ee3d5c9d202b920c9ef10662a1d62a9d392ef14d24eee65430858819583"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.40/substrate_0.0.40_darwin_amd64.tar.gz"
-      sha256 "1893c4599b29645a177726a704778706bdcf896d12cfb104ee4f03888edfa188"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.41/substrate_0.0.41_darwin_amd64.tar.gz"
+      sha256 "381c1e4bf7b8aa1bc2017f83e973962d15050a8ba4c834222bd25c07dbe7a2df"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.40/substrate_0.0.40_linux_arm64.tar.gz"
-      sha256 "7ec052b8e1788592109d6817594ccfa7836de3b4a787f7e5e3beca27ef3c7cc4"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.41/substrate_0.0.41_linux_arm64.tar.gz"
+      sha256 "73ee2c1c8d6c92f9054bbeeef3ed134d465394a26e4b64c45e992dac00777db1"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.40/substrate_0.0.40_linux_amd64.tar.gz"
-      sha256 "2659870dec4753182264a6adb62cd3d0700d5e6e8a2576209f2c1a3d82a03757"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.41/substrate_0.0.41_linux_amd64.tar.gz"
+      sha256 "fd387bb4e1bc16446a5556d28c0d1b2eb7515cf57cc1f772c1bdd53305015b41"
     end
   end
 
