@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.38"
+  version "0.0.40"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.38/substrate_0.0.38_darwin_arm64.tar.gz"
-      sha256 "cdd1f2c66e88b889f43bb9b244b8b673313e6f27f66fb9de90b09ca4edab8fa1"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.40/substrate_0.0.40_darwin_arm64.tar.gz"
+      sha256 "4869b00add56561c494366a19625f046a99161e175fc974daf4aa9e2c363e8cb"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.38/substrate_0.0.38_darwin_amd64.tar.gz"
-      sha256 "4c84e00e4dfb7359f1c19888beb030b983674e69dd19ab03d93819c806f05907"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.40/substrate_0.0.40_darwin_amd64.tar.gz"
+      sha256 "1893c4599b29645a177726a704778706bdcf896d12cfb104ee4f03888edfa188"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.38/substrate_0.0.38_linux_arm64.tar.gz"
-      sha256 "e1b2bc943bb4c63877658d43def47c109d303360f7aa17179b85bdb51c5a05f2"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.40/substrate_0.0.40_linux_arm64.tar.gz"
+      sha256 "7ec052b8e1788592109d6817594ccfa7836de3b4a787f7e5e3beca27ef3c7cc4"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.38/substrate_0.0.38_linux_amd64.tar.gz"
-      sha256 "1f080275529cd7e9b71a9a54c25afd42c398cf49459c9243d4a9c9fd1fb101cf"
+      url "https://github.com/beeemT/substrate/releases/download/v0.0.40/substrate_0.0.40_linux_amd64.tar.gz"
+      sha256 "2659870dec4753182264a6adb62cd3d0700d5e6e8a2576209f2c1a3d82a03757"
     end
   end
 
