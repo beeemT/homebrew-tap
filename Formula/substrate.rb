@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.0.41"
+  version "0.1.0"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.41/substrate_0.0.41_darwin_arm64.tar.gz"
-      sha256 "dca86ee3d5c9d202b920c9ef10662a1d62a9d392ef14d24eee65430858819583"
+      url "https://github.com/beeemT/substrate/releases/download/v0.1.0/substrate_0.1.0_darwin_arm64.tar.gz"
+      sha256 "e44cfb69cc2ded62004337d569100f5a098869865eb0a7b74c9f3b1835537c2a"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.41/substrate_0.0.41_darwin_amd64.tar.gz"
-      sha256 "381c1e4bf7b8aa1bc2017f83e973962d15050a8ba4c834222bd25c07dbe7a2df"
+      url "https://github.com/beeemT/substrate/releases/download/v0.1.0/substrate_0.1.0_darwin_amd64.tar.gz"
+      sha256 "1bf1a17abf8ba0a3cef4ee6b931d31b6e780d45a1461fe370190705b358e906c"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.41/substrate_0.0.41_linux_arm64.tar.gz"
-      sha256 "73ee2c1c8d6c92f9054bbeeef3ed134d465394a26e4b64c45e992dac00777db1"
+      url "https://github.com/beeemT/substrate/releases/download/v0.1.0/substrate_0.1.0_linux_arm64.tar.gz"
+      sha256 "5ad268fe0e688fa3d5ae4c7a4cb526391b28f36163fd9013895274fd8043605d"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.0.41/substrate_0.0.41_linux_amd64.tar.gz"
-      sha256 "fd387bb4e1bc16446a5556d28c0d1b2eb7515cf57cc1f772c1bdd53305015b41"
+      url "https://github.com/beeemT/substrate/releases/download/v0.1.0/substrate_0.1.0_linux_amd64.tar.gz"
+      sha256 "35a4352b3ad6193c8155f6691701a4cd044f20ab9c4b179326873c7c6add6498"
     end
   end
 
