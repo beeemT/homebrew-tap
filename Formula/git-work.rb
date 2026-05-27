@@ -1,8 +1,8 @@
 class GitWork < Formula
   desc "Branch-per-directory workflow wrapping git worktree"
   homepage "https://github.com/beeemT/git-work"
-  url "https://github.com/beeemT/git-work/releases/download/v0.2.9/git-work_0.2.9.tar.gz"
-  sha256 "8056258ffc0282f4ae6c7d5693d1d99a00f3952c83adca9e2d3df771e47a3a20"
+  url "https://github.com/beeemT/git-work/releases/download/v0.2.10/git-work_0.2.10.tar.gz"
+  sha256 "eaf4b7f2fd3d6bb2404b5250493148b4506081b797a87a78cdc7ed074af86213"
   license "MIT"
 
   depends_on "erlang"
