@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.1.1"
+  version "0.2.1"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.1.1/substrate_0.1.1_darwin_arm64.tar.gz"
-      sha256 "b9acc961c47a2f26ebcb3972cb550b712ffa1ada139722cbf3149199ba873796"
+      url "https://github.com/beeemT/substrate/releases/download/v0.2.1/substrate_0.2.1_darwin_arm64.tar.gz"
+      sha256 "d1075150f540f31b64bd4fdbf1a9454b938a17a0ed4596158d6320afe16eee97"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.1.1/substrate_0.1.1_darwin_amd64.tar.gz"
-      sha256 "77df09172584dfb1a9727cf8061b9c8d21b3c885fd8d6436b79fc5c56a31bd0c"
+      url "https://github.com/beeemT/substrate/releases/download/v0.2.1/substrate_0.2.1_darwin_amd64.tar.gz"
+      sha256 "01dc270315bb8e60cceedcdce83cfe64735053455f89e9c9a5fcbe84ecff4d0c"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.1.1/substrate_0.1.1_linux_arm64.tar.gz"
-      sha256 "0b7616e39028b46b934ecbc0d38d0f67311fb9b2d78e42b31896dbb5e4246b23"
+      url "https://github.com/beeemT/substrate/releases/download/v0.2.1/substrate_0.2.1_linux_arm64.tar.gz"
+      sha256 "9725a186979cde1096f501c04fa06f8bb5ee66f986aeb0bdcfff86e7e9b841ae"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.1.1/substrate_0.1.1_linux_amd64.tar.gz"
-      sha256 "0b40c297f587d4d0c6e3d693d9a5ad7d91b64cdb6d6c0f9744769ebb58821f9e"
+      url "https://github.com/beeemT/substrate/releases/download/v0.2.1/substrate_0.2.1_linux_amd64.tar.gz"
+      sha256 "a3361eb5c77f021132943c07064f925982e47fe2436742eedf23cf58d079ddbf"
     end
   end
 
@@ -42,5 +42,8 @@ class Substrate < Formula
     assert_match "session_ready", pipe_output("#{pkgshare}/bridge/omp-bridge", '{"type":"abort"}\n', 0)
     assert_path_exists pkgshare/"bridge/claude-agent-bridge"
     assert_match "claude-agent-bridge", shell_output("#{pkgshare}/bridge/claude-agent-bridge --version", 0)
+    assert_path_exists pkgshare/"bridge/foreman-mcp"
+    assert_predicate pkgshare/"bridge/foreman-mcp", :executable?
+    assert_match "foreman-mcp", shell_output("#{pkgshare}/bridge/foreman-mcp --version", 0)
   end
 end
