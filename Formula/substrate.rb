@@ -2,7 +2,7 @@ class Substrate < Formula
   desc "AI-powered work item orchestration for multi-repo development"
   homepage "https://github.com/beeemT/substrate"
   license "MIT"
-  version "0.2.2"
+  version "0.2.3"
 
   depends_on "beeemT/tap/git-work"
   # Optional CLIs intentionally not hard dependencies:
@@ -11,23 +11,23 @@ class Substrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.2.2/substrate_0.2.2_darwin_arm64.tar.gz"
-      sha256 "a947794324f2cc26b8f3bfb3458e9f9ace0b837c4ff1c6b18af613b04af5ec32"
+      url "https://github.com/beeemT/substrate/releases/download/v0.2.3/substrate_0.2.3_darwin_arm64.tar.gz"
+      sha256 "18611d7cca2f2a3bf8029a18ae02980ab2b78a8893bd08ab0b291f8a84d01a99"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.2.2/substrate_0.2.2_darwin_amd64.tar.gz"
-      sha256 "58aab89afd7d0f02e481859e7e92d979a054b2e8ad50313d9e01883d9d8c54ff"
+      url "https://github.com/beeemT/substrate/releases/download/v0.2.3/substrate_0.2.3_darwin_amd64.tar.gz"
+      sha256 "4afad62dfc7bc71a5806ee3a63816f540e505952f68aa0104358593c8c9526d8"
     end
   end
   on_linux do
     depends_on "bubblewrap"
     on_arm do
-      url "https://github.com/beeemT/substrate/releases/download/v0.2.2/substrate_0.2.2_linux_arm64.tar.gz"
-      sha256 "adf923dc03c19a1bc9fde9469453596fc1d827c06cd1fffcc6ac3e65ae1038f1"
+      url "https://github.com/beeemT/substrate/releases/download/v0.2.3/substrate_0.2.3_linux_arm64.tar.gz"
+      sha256 "a89c9b327520e2c224202099c88794df18c6653f70022e33ad16f64483eb562b"
     end
     on_intel do
-      url "https://github.com/beeemT/substrate/releases/download/v0.2.2/substrate_0.2.2_linux_amd64.tar.gz"
-      sha256 "83fcd7e3522aa1906557a86986bce04f70e19e51bfd0e5bfdc816a5a10fc424e"
+      url "https://github.com/beeemT/substrate/releases/download/v0.2.3/substrate_0.2.3_linux_amd64.tar.gz"
+      sha256 "caf7000d449ea74a145c1ae0495933a304d7e192335a87d94042bce3aeab0a06"
     end
   end
 
