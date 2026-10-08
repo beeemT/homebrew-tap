@@ -1,28 +1,28 @@
 class Claimy < Formula
   desc "CLI for advisory environment claims"
   homepage "https://github.com/beeemT/claimy"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/beeemT/claimy/releases/download/v#{version}/claimy_#{version}_darwin_arm64.tar.gz"
-      sha256 "5b71ad44dbd3b809ebdebf6137e8f9c59c7589d22d9890df1cdab5328ed99e55"
+      sha256 "487d90053dedbe6e20acbed3ff183e2071fb1e655866f5528534d01ca034e96d"
     end
     on_intel do
       url "https://github.com/beeemT/claimy/releases/download/v#{version}/claimy_#{version}_darwin_amd64.tar.gz"
-      sha256 "1a6c7babc23704a6292b928f7e9fdd88f6387715ee10e259b65751386095365a"
+      sha256 "9f050e60c1c56bd937c9e1507c58c28e0bec0693ba06e0581bdecd1a263f0cb4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/beeemT/claimy/releases/download/v#{version}/claimy_#{version}_linux_arm64.tar.gz"
-      sha256 "147e006145a789ed225a7bbb7fb84e552ea6ef7c3fb938f4f7b6a878e6bdb854"
+      sha256 "e32761611baca0bce70a752e6a2cdb6f5150b7944712189c080b18b3858f09b4"
     end
     on_intel do
       url "https://github.com/beeemT/claimy/releases/download/v#{version}/claimy_#{version}_linux_amd64.tar.gz"
-      sha256 "9b2e68700ce312d22ecb33343b033813a89bab963b3fe7417d30829cccc04161"
+      sha256 "f2f40226b286bb8e6e37e6d2680a4504d26d1a5465efd6212a82f855a1c5c07d"
     end
   end
 
