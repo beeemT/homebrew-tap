@@ -1,7 +1,7 @@
 class Awpfel < Formula
   desc "On-device AI ghost text for zsh, backed by a managed local Apfel"
   homepage "https://github.com/beeemT/awpfel"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   depends_on "apfel"
@@ -13,7 +13,7 @@ class Awpfel < Formula
   on_macos do
     on_arm do
       url "https://github.com/beeemT/awpfel/releases/download/v#{version}/awpfel_#{version}_darwin_arm64.tar.gz"
-      sha256 "3def0529dbeaa187b1fecebb03a744c444be2c52ffb90ebfff5fee0330a36ca7"
+      sha256 "1b685ed45a0bed65db6920940db2cfd5e260cb6deb1561981e8f6fbb4ace50cb"
     end
   end
 
